@@ -1,0 +1,116 @@
+body {
+margin: 0%;
+width: 1320px;
+background-color: rgb(100, 203, 169);
+}
+
+@media only screen and (max-width:800px){
+    body{
+        background-color: red;
+    }
+}
+
+.nav-link {
+width: 816px;
+height: 50px;
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 27px;
+color: #000000;
+margin-left: 200px;
+opacity: 0.4;
+}
+
+.nav-link:hover{
+color:black;
+opacity: 1;
+}
+
+.headerpos {
+display: flex;
+list-style: none;
+}
+
+.logo {
+
+}
+
+.banner {
+width:1320px;
+height: 224px;
+background-color: rgb(197, 221, 221);
+margin-top: 40px;
+margin-left: 50px;
+border-radius: 15px;
+}
+
+.banner h1 {
+color: rgb(38, 15, 168);
+text-align: center;
+}
+
+.banner p {
+text-align: center;
+}
+
+.table {
+margin-top: 50px;
+margin-left: 50px   ;
+}
+
+table, th, td {
+border: 1px solid red;
+height: 60px;
+width: 60px;
+}
+
+tr:nth-child(even) {
+    background-color: red;
+}
+
+td:nth-child(3n) {
+    background-color: blue;
+}
+
+.animation {
+margin-top: -150px;
+background-color: red;
+width: 118px;
+position: relative;
+animation: move 7s infinite;
+float: right;
+}
+@keyframes move {
+    0% {
+        transform: rotate(0deg) translateX(40px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translateX(40px) rotate(-360deg);
+    }
+}
+
+.space-between {
+justify-content: space-between;
+margin-left: 500px;
+}
+
+.space-between p {
+margin-left: -100px;
+}
+
+footer {
+background-color: rgb(6, 72, 54);
+width: 1440px;
+height: 80px;
+margin-top: 30px;
+bottom: 0;
+}
+
+footer h2 {
+color: rgb(28, 35, 33);
+margin-left: 500px;
+
+}
+
